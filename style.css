@@ -31,7 +31,7 @@
 html body{
 
     background-color:var(--primary-color-dark-cyan);
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: calc(50vw - 60rem) calc(50vh - 60rem), calc(50vw - 1em) calc(50vh - 5rem);
     
@@ -63,7 +63,7 @@ Footer{
 
 .card{ 
     background-color: white;
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     min-width: 20rem;
     min-height: 22rem;
