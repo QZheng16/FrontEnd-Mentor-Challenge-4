@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 .attribution { 
     font-size: 11px; text-align: center; 
@@ -29,7 +29,15 @@
 }
 
 html body{
+
     background-color:var(--primary-color-dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50vw - 60rem) calc(50vh - 60rem), calc(50vw - 1em) calc(50vh - 5rem);
+    
+
+  
+ 
     min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -37,39 +45,87 @@ html body{
     justify-content: center;
     align-items: center;
 
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+
+
+
 }
 
 main{
     margin-top: auto;
 }
 Footer{
-    background-color: red;
+
     margin-top:auto;
     margin-bottom: 10%;
-    
-  
 }
 
 .card{ 
     background-color: white;
     background-image: url(/images/bg-pattern-card.svg);
     background-repeat: no-repeat;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
     min-width: 20rem;
     min-height: 22rem;
     border-radius: 1rem;
-
-
+    overflow: hidden;
 }
 
 .portrait{
     border-radius:4rem;
     background-color: white;
     padding: .2rem;
+    margin-top: 5rem;
 }
+
+.name-info{
+    margin-top: 1.5rem;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.name-info span{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--neutral-color-dark-gray);
+    margin-left: .5rem;
+}
+
+.card-data{
+    background-color: rgba(255, 255, 255, 0.61);
+    margin: auto;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(245, 245, 245);
+    
+}
+
+.card-data .likes{
+    flex: 0 0 7rem;
+}
+
+.card-data h2{
+    margin-bottom: .2rem;
+}
+
+.card-data h3{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    font-size: .8rem;
+}
+
+
+
 
 
 
