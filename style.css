@@ -1,0 +1,76 @@
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+   
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+:root{
+
+    --primary-color-dark-cyan: hsl(185, 75%, 39%);
+    --primary-color-vdark-desat-blue:hsl(229, 23%, 23%);
+    --primary-color-dark-gray-blue: hsl(227, 10%, 46%);
+
+    --neutral-color-dark-gray: hsl(0, 0%, 59%);
+}
+
+.sr-only {
+    position: absolute;
+    top: auto;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+html body{
+    background-color:var(--primary-color-dark-cyan);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    margin-top: auto;
+}
+Footer{
+    background-color: red;
+    margin-top:auto;
+    margin-bottom: 10%;
+    
+  
+}
+
+.card{ 
+    background-color: white;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20rem;
+    min-height: 22rem;
+    border-radius: 1rem;
+
+
+}
+
+.portrait{
+    border-radius:4rem;
+    background-color: white;
+    padding: .2rem;
+}
+
+
+
+
